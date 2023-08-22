@@ -1,5 +1,5 @@
 # Proyecto de SISTEMAS EXPERTOS
-* Universidad de Huelva
-* Curso 2019/2020
+* Universidad Nacional de San Cristobal de Huamanga
+* Curso 2022-22
 
 ## Autores
