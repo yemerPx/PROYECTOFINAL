@@ -20,11 +20,12 @@ import java.util.List;
 import static javafx.application.Application.launch;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+
 public class PROYECTOFINAL extends Application {
 
-     private Stage primaryStage;
+    private Stage primaryStage;
     private VBox startPane, questionPane, resultPane;
-    private List<String> sintomasList;    
+    private List<String> sintomasList;
     private List<String> preguntasList;
 
     private int currentQuestionIndex = 0;
@@ -53,7 +54,7 @@ public class PROYECTOFINAL extends Application {
 
         // Leer síntomas desde el archivo Sintomas.txt
         sintomasList = new ArrayList<>();
-        try ( BufferedReader br = new BufferedReader(new FileReader("texto/Sintomas.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("texto/Sintomas.txt"))) {
             String linea;
             while ((linea = br.readLine()) != null) {
                 sintomasList.add(linea);
@@ -63,7 +64,7 @@ public class PROYECTOFINAL extends Application {
         }
         //leer las preguntas en el archivo preguntas.txt
         preguntasList = new ArrayList<>();
-        try ( BufferedReader br = new BufferedReader(new FileReader("texto/preguntas.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("texto/preguntas.txt"))) {
             String linea;
             while ((linea = br.readLine()) != null) {
                 preguntasList.add(linea);
@@ -101,10 +102,38 @@ public class PROYECTOFINAL extends Application {
 
     }
 
+    /**
+     * private void setupQuestionPane() { questionPane = new VBox(10);
+     * questionPane.setAlignment(Pos.CENTER); Label questionLabel = new Label();
+     * HBox buttonBox = new HBox(10); buttonBox.setAlignment(Pos.CENTER);
+     *
+     * Button noneButton = new Button("Nunca"); Button lowButton = new
+     * Button("Bajo"); Button mediumButton = new Button("Medio"); Button
+     * highButton = new Button("Alto");
+     *
+     * noneButton.setOnAction(e -> handleAnswer("nada"));
+     * lowButton.setOnAction(e -> handleAnswer("bajo"));
+     * mediumButton.setOnAction(e -> handleAnswer("medio"));
+     * highButton.setOnAction(e -> handleAnswer("alto"));
+     *
+     * buttonBox.getChildren().addAll(noneButton, lowButton, mediumButton,
+     * highButton); questionPane.getChildren().addAll(questionLabel, buttonBox);
+     * }
+     */
     private void setupQuestionPane() {
         questionPane = new VBox(10);
         questionPane.setAlignment(Pos.CENTER);
-        Label questionLabel = new Label();
+
+        File imageFile = new File("src/imagenes/fondo.jpg");
+        Image backgroundImage = new Image(imageFile.toURI().toString());
+        BackgroundImage background = new BackgroundImage(
+                backgroundImage, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT,
+                BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
+        questionPane.setBackground(new Background(background));
+
+        Label questionLabel = new Label("¿Cómo calificarías esto?");
+        questionLabel.setStyle("-fx-font-size: 24px; -fx-text-fill: white;");
+
         HBox buttonBox = new HBox(10);
         buttonBox.setAlignment(Pos.CENTER);
 
@@ -112,6 +141,12 @@ public class PROYECTOFINAL extends Application {
         Button lowButton = new Button("Bajo");
         Button mediumButton = new Button("Medio");
         Button highButton = new Button("Alto");
+
+        String buttonStyle = "-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-size: 18px;";
+        noneButton.setStyle(buttonStyle);
+        lowButton.setStyle(buttonStyle);
+        mediumButton.setStyle(buttonStyle);
+        highButton.setStyle(buttonStyle);
 
         noneButton.setOnAction(e -> handleAnswer("nada"));
         lowButton.setOnAction(e -> handleAnswer("bajo"));
@@ -129,7 +164,7 @@ public class PROYECTOFINAL extends Application {
 
     private void showNextQuestion() {
         if (currentQuestionIndex < sintomasList.size()) {
-            Label questionLabel = new Label(preguntasList.get(currentQuestionIndex) );
+            Label questionLabel = new Label(preguntasList.get(currentQuestionIndex));
             questionPane.getChildren().set(0, questionLabel);
             currentQuestionIndex++;
         } else {
@@ -181,5 +216,5 @@ public class PROYECTOFINAL extends Application {
 
         showNextQuestion();
     }
-    
+
 }

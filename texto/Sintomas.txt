@@ -1,12 +1,7 @@
-dolor_de_cabeza
-dolor_de_espalda
 fatiga
-problemas_gastrointestinales
-insomnio
-palpitaciones
-sudoracion_excesiva
+problemas_sueno
+dolores_cabeza
 tension_muscular
-cambios_en_el_apetito
-mareos
-aislamiento_social
-ansiedad
+problemas_digestivos
+sensacion_pesadez
+debilidad
