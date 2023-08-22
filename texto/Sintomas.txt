@@ -1,0 +1,12 @@
+dolor_de_cabeza
+dolor_de_espalda
+fatiga
+problemas_gastrointestinales
+insomnio
+palpitaciones
+sudoracion_excesiva
+tension_muscular
+cambios_en_el_apetito
+mareos
+aislamiento_social
+ansiedad
