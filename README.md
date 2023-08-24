@@ -1,5 +1,8 @@
 # Proyecto de SISTEMAS EXPERTOS
 * Universidad Nacional de San Cristobal de Huamanga
-* Curso 2022-22
+* Curso de SISTEMAS EXPERTOS
 
 ## Autores
+* Tucno Perez Jhampier Jhonatan
+* Rivera Araujo Yemer Eduard
+* Quispe Fernandez Cristian Raúl
