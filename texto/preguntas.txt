@@ -1,7 +1,40 @@
-¿Con qué frecuencia sientes una falta general de energía?
-¿Tienes dificultades para conciliar el sueño o para mantenerlo durante la noche?
-¿Experimentas dolores de cabeza con frecuencia?
-¿Sientes que tus músculos están constantemente tensos o doloridos?
-¿Has experimentado problemas estomacales, como náuseas, acidez estomacal o malestar abdominal?
-¿Sientes una sensación constante de tristeza o pesadez emocional?
-¿Te sientes físicamente débil, aunque no haya una razón médica evidente?
+¿Sientes que te falta energía incluso después de descansar?
+¿Has experimentado una disminución o aumento significativo en tu apetito recientemente?
+¿Has tenido dificultades para conciliar el sueño o te has despertado varias veces durante la noche?
+¿Has estado experimentando dolores de cabeza más frecuentes o intensos de lo habitual?
+¿Has sentido tensión o rigidez en tus músculos, incluso sin hacer esfuerzo físico?
+¿Has notado cambios en tu sistema digestivo, como molestias estomacales o problemas intestinales?
+¿Sientes una sensación constante de peso emocional o físico que no puedes aliviar?
+¿Experimentas una tristeza persistente que parece no desaparecer incluso en momentos placenteros?
+¿Sientes que no hay esperanza en tu futuro y que las cosas no mejorarán?
+¿Te encuentras irritado o molesto con más frecuencia de lo normal?
+interés: ¿Has dejado de disfrutar actividades que antes te gustaban?
+¿Sientes que eres responsable de problemas o situaciones que pueden no ser necesariamente tu culpa?
+¿Te ves a ti mismo como inútil o sin valor en situaciones cotidianas?
+¿Tienes una baja opinión de ti mismo y dudas constantemente de tus capacidades?
+¿Te sientes emocionalmente sensible o lloras con facilidad?
+¿Sientes que tu vida carece de propósito o significado?
+¿Tienes problemas para enfocar tu mente en tareas o conversaciones?
+¿Te resulta difícil tomar decisiones incluso en asuntos pequeños?
+¿Te encuentras atrapado en un ciclo de pensamientos negativos sobre ti mismo o tu vida?
+¿Te ves a ti mismo como menos valioso que los demás?
+¿Has perdido el interés en aprender cosas nuevas?
+¿Te culpas a ti mismo por cosas pasadas de manera constante?
+¿Has estado evitando el contacto con amigos y familiares?
+¿Has notado que estás hablando menos con las personas que solías?
+¿Te cuesta trabajo participar en eventos sociales o actividades grupales?
+¿Sientes que estás desconectado emocionalmente de lo que te rodea?
+¿Prefieres evitar situaciones sociales en general?
+¿Te sientes solo incluso cuando estás rodeado de personas?
+¿Prefieres estar solo en lugar de estar con otras personas?
+¿Encuentras difícil hablar sobre tus emociones con los demás?
+¿Te resistes o evitas aceptar ayuda de otros, incluso cuando la necesitas?
+¿Has dejado de participar en actividades que solían interesarte?
+¿Has notado cambios significativos en tus hábitos alimenticios recientemente?
+¿Te resulta difícil cumplir con tus responsabilidades diarias?
+¿Has experimentado una disminución en tu rendimiento en el trabajo o en la escuela?
+¿Te has involucrado en comportamientos que podrían ser perjudiciales para ti?
+¿Has dejado de cuidar tu higiene personal o bienestar físico?
+¿Sientes una falta constante de energía para llevar a cabo tus actividades diarias?
+¿Te sientes inquieto o agitado sin una razón aparente?
+¿Te encuentras expresando agresión física o verbal hacia los demás?
