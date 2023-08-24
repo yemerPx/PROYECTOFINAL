@@ -12,9 +12,9 @@ class Recomendaciones {
      public static String obtenerRecomendaciones(int puntajeTotal) {
         String nivelDepresion;
 
-        if (puntajeTotal <= 25) {
+        if (puntajeTotal <= 40) {
             nivelDepresion = "LEVE";
-        } else if (puntajeTotal <= 50) {
+        } else if (puntajeTotal <= 80) {
             nivelDepresion = "MODERADA";
         } else {
             nivelDepresion = "CRITICA";

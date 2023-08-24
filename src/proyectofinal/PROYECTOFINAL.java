@@ -4,7 +4,7 @@
  */
 package proyectofinal;
 
-import org.jpl7.*;
+import org.jpl7.*; // para concetar con prolog
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -158,9 +158,9 @@ public class PROYECTOFINAL extends Application {
         highButton.setStyle(buttonStyle);
 
         noneButton.setOnAction(e -> handleAnswer("nada"));
-        lowButton.setOnAction(e -> handleAnswer("raramente"));
-        mediumButton.setOnAction(e -> handleAnswer("aveces"));
-        highButton.setOnAction(e -> handleAnswer("siempre"));
+        lowButton.setOnAction(e -> handleAnswer("bajo"));
+        mediumButton.setOnAction(e -> handleAnswer("medio"));
+        highButton.setOnAction(e -> handleAnswer("alto"));
 
         buttonBox.getChildren().addAll(noneButton, lowButton, mediumButton, highButton);
         questionPane.getChildren().addAll(questionText, buttonBox);
@@ -222,11 +222,11 @@ public class PROYECTOFINAL extends Application {
         switch (nivel) {
             case "nada" ->
                 puntajeSintoma = 0;
-            case "raramente" ->
+            case "bajo" ->
                 puntajeSintoma = 1;
-            case "aveces" ->
+            case "medio" ->
                 puntajeSintoma = 2;
-            case "siempre" ->
+            case "alto" ->
                 puntajeSintoma = 3;
         }
         puntajeTotal += puntajeSintoma;
